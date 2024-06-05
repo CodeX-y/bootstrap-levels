@@ -1,7 +1,24 @@
-<span>Click me!</span>
+<span class="fancy-button">Click me!</span>
 
 <style>
+  .fancy-button {
+    background-color:blue;
+    color:white;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+  }
 
-  /* Write your CSS here to make the span look like a button. */
+  .fancy-button:hover {
+    background-color: blue;
+    box-shadow: 0px 0px 86px 30px rgba(0,0,0,0.63) inset;
+    -webkit-box-shadow: 0px 0px 86px 30px rgba(0,0,0,0.63) inset;
+    -moz-box-shadow: 0px 0px 86px 30px rgba(0,0,0,0.63) inset;
+  }
 
+  .fancy-button:active {
+    background-color: darkblue;
+  }
 </style>
